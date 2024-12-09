@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7d4d4;
+    padding: 10px 20px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .logo span {
+    font-style: italic;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    width: 200px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    background-color: #f3a7a7;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .auth-cart {
+    display: flex;
+    align-items: center;
+  }
+  
+  .auth-cart a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .hero {
+    display: flex;
+    background-color: #ffc8c8;
+    padding: 20px;
+  }
+  
+  .hero-content {
+    flex: 1;
+  }
+  
+  .hero-content h2 {
+    font-size: 36px;
+    color: #fff;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .hero-content button {
+    padding: 10px 20px;
+    background-color: #7c49fc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .categories {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .category-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .category-item {
+    text-align: center;
+  }
+  
+  .category-item img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .category-item p {
+    margin: 10px 0 0;
+  }
+  
